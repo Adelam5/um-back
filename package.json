@@ -7,8 +7,7 @@
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "lint:check": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "heroku-postbuild": "webpack"
+    "lint:fix": "eslint --fix ."
   },
   "keywords": [],
   "author": "",
