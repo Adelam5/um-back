@@ -8,7 +8,7 @@
     "format:write": "prettier --write .",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
-    "start": "babel-node ./src/server.js"
+    "heroku-postbuild": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -37,5 +37,9 @@
     "winston-mongodb": "^5.0.7",
     "xss-clean": "^0.1.1",
     "yup": "^0.32.11"
+  },
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.1.0"
   }
 }
